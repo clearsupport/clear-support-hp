@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ==========================================================
+  ▼▼▼ 公開前に置換が必要な箇所（残り1か所） ▼▼▼
+  1) canonical / og:url / JSON-LD の "https://YOUR-USERNAME.github.io/YOUR-REPO/"
+     → 実際の公開URLに置換してください（計11か所）
+
+  【設定済み】お問い合わせフォーム（Googleフォーム連携）／連絡先メールアドレス
+  ※ 未確認の情報（住所・電話番号・代表者の資格等）は意図的に記載していません。
+========================================================== -->
+
+<title>管理部門構築・月次決算早期化の支援｜クリアサポート株式会社</title>
+<meta name="description" content="売上5〜80億円規模の企業向けに、管理部門の構築・月次決算の早期化・管理会計導入・連結決算/PMI支援を、資料作成で終わらせず現場の運用定着まで一貫支援。月次決算30日→8日、管理部門の立ち上げ等の実績。初回オンライン相談（30〜60分）は無料です。">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://YOUR-USERNAME.github.io/YOUR-REPO/">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#2C4A3B">
+
+<!-- OGP / Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="クリアサポート株式会社">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="管理部門構築・月次決算早期化の支援｜クリアサポート株式会社">
+<meta property="og:description" content="売上5〜80億円規模の企業向けに、管理部門の構築・月次決算の早期化・管理会計導入を、現場の運用定着まで一貫支援します。">
+<meta property="og:url" content="https://YOUR-USERNAME.github.io/YOUR-REPO/">
+<meta property="og:image" content="https://YOUR-USERNAME.github.io/YOUR-REPO/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+<!-- Fonts: ウェイトを絞り、描画ブロックを最小化 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&family=Noto+Sans+JP:wght@400;500;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&family=Noto+Sans+JP:wght@400;500;700&display=swap"></noscript>
+
+<style>
+:root{
+  --bg:#FAF9F5;
+  --bg-alt:#F1EFE9;
+  --ink:#1E1E1B;
+  --ink-soft:#4B4943;      /* コントラスト改善（旧#55534C） */
+  --ink-faint:#75736A;     /* コントラスト改善（旧#8B887D） */
+  --rule:#DAD6CC;
+  --rule-strong:#C3BEAF;
+  --accent:#2C4A3B;
+  --accent-soft:#42604E;
+  --accent-bg:#EDEFE9;
+  --paper:#FFFFFF;
+  --serif:'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --sans:'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', sans-serif;
+  --maxw:1120px;
+  --header-h:76px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{
+  font-family:var(--sans);
+  color:var(--ink);
+  background:var(--bg);
+  line-height:1.85;
+  -webkit-font-smoothing:antialiased;
+  font-feature-settings:"palt";
+  overflow-wrap:anywhere;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}
+section[id], main[id]{scroll-margin-top:calc(var(--header-h) + 12px);}
+.skip-link{
+  position:absolute;left:-9999px;top:0;z-index:200;
+  background:var(--accent);color:#fff;padding:12px 20px;font-size:14px;
+}
+.skip-link:focus{left:0;}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 32px;}
+.eyebrow{
+  font-size:12.5px;letter-spacing:.14em;color:var(--accent);font-weight:700;
+  display:flex;align-items:center;gap:10px;margin-bottom:18px;
+}
+.eyebrow::before{content:"";width:22px;height:1px;background:var(--accent);display:inline-block;flex:none;}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:600;letter-spacing:.02em;color:var(--ink);}
+.num{font-variant-numeric:tabular-nums;letter-spacing:.02em;}
+.section{padding:96px 0;}
+.section-alt{background:var(--bg-alt);}
+.section-border-top{border-top:1px solid var(--rule);}
+.lead{color:var(--ink-soft);font-size:16px;}
+.sub-h{font-family:var(--serif);font-size:16px;margin-bottom:8px;color:var(--accent);}
+
+/* header */
+header{
+  position:sticky;top:0;z-index:100;
+  background:rgba(250,249,245,.94);
+  backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--rule);
+}
+.header-inner{
+  max-width:var(--maxw);margin:0 auto;padding:0 32px;
+  height:var(--header-h);display:flex;align-items:center;justify-content:space-between;
+}
+.logo{display:flex;flex-direction:column;line-height:1.2;}
+.logo-main{font-family:var(--serif);font-size:18px;font-weight:600;letter-spacing:.04em;}
+.logo-sub{font-size:10px;letter-spacing:.14em;color:var(--ink-faint);margin-top:2px;}
+nav{display:flex;align-items:center;gap:28px;}
+.nav-links{display:flex;gap:24px;font-size:13.5px;}
+.nav-links a{color:var(--ink-soft);padding:4px 0;}
+.nav-links a:hover{color:var(--ink);}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:14px 26px;font-size:14px;font-weight:500;
+  border:1px solid var(--accent);border-radius:0;
+  transition:background .2s, color .2s;white-space:nowrap;cursor:pointer;
+  font-family:var(--sans);
+}
+.btn-solid{background:var(--accent);color:#fff;}
+.btn-solid:hover{background:var(--accent-soft);}
+.btn-outline{background:transparent;color:var(--accent);}
+.btn-outline:hover{background:var(--accent);color:#fff;}
+.btn-sm{padding:10px 18px;font-size:13px;}
+.menu-toggle{
+  display:none;background:none;border:1px solid var(--rule);
+  width:42px;height:42px;font-size:20px;color:var(--ink);cursor:pointer;line-height:1;
+}
+
+/* hero */
+.hero{padding:104px 0 88px;}
+.hero-inner{max-width:820px;}
+.hero h1{font-size:42px;line-height:1.5;margin-bottom:24px;}
+.hero h1 .h1-sub{display:block;font-size:19px;color:var(--accent);margin-top:14px;letter-spacing:.04em;}
+.hero .lead{font-size:17px;max-width:640px;margin-bottom:14px;}
+.hero .lead-sub{font-size:14.5px;color:var(--ink-faint);margin-bottom:32px;}
+.hero-cta{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:14px;}
+.cta-micro{font-size:12.5px;color:var(--ink-faint);margin-bottom:52px;}
+.proof-strip{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:1px;
+  background:var(--rule);border:1px solid var(--rule);margin-bottom:26px;
+}
+.proof-item{background:var(--paper);padding:22px 24px;}
+.proof-item .p-num{font-family:var(--serif);font-size:25px;color:var(--accent);display:block;line-height:1.35;margin-bottom:6px;}
+.proof-item .p-label{font-size:12.5px;color:var(--ink-soft);line-height:1.7;}
+.credential-strip{
+  border-top:1px solid var(--rule);padding-top:24px;
+  display:grid;grid-template-columns:repeat(2,1fr);gap:24px;
+}
+.credential-item{font-size:13px;color:var(--ink-soft);}
+.credential-item .num{display:block;font-family:var(--serif);font-size:24px;color:var(--accent);margin-bottom:4px;}
+.credential-note{font-size:11.5px;color:var(--ink-faint);margin-top:18px;line-height:1.8;}
+
+/* section headers */
+.section-head{max-width:680px;margin-bottom:56px;}
+.section-head h2{font-size:30px;line-height:1.55;}
+.section-head .lead{margin-top:16px;font-size:15.5px;}
+
+/* pain points */
+.pain-list{border-top:1px solid var(--rule);}
+.pain-row{
+  display:grid;grid-template-columns:56px 1fr;gap:20px;padding:22px 0;
+  border-bottom:1px solid var(--rule);align-items:baseline;
+}
+.pain-row .idx{font-family:var(--serif);color:var(--rule-strong);font-size:20px;}
+.pain-row p{font-size:15.5px;color:var(--ink);}
+
+/* target */
+.target-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);}
+.target-cell{background:var(--paper);padding:28px;}
+.target-cell h3{font-size:16px;margin-bottom:10px;}
+.target-cell p{font-size:13.5px;color:var(--ink-soft);}
+.target-note{margin-top:24px;font-size:12.5px;color:var(--ink-faint);}
+
+/* comparison table */
+.compare{width:100%;border-collapse:collapse;background:var(--paper);border:1px solid var(--rule);font-size:14px;}
+.compare th,.compare td{border:1px solid var(--rule);padding:16px 18px;text-align:left;vertical-align:top;}
+.compare thead th{background:var(--bg-alt);font-family:var(--serif);font-weight:600;font-size:14.5px;}
+.compare thead th.is-us{background:var(--accent);color:#fff;}
+.compare tbody th{width:20%;font-weight:500;font-family:var(--sans);color:var(--ink-soft);font-size:13.5px;background:var(--bg);}
+.compare td{color:var(--ink-soft);}
+.compare td.is-us{color:var(--ink);background:#FCFCFA;font-weight:500;}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+
+/* services */
+.service-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);}
+.service-card{background:var(--paper);padding:40px;display:flex;flex-direction:column;}
+.service-card h3{font-size:20px;margin-bottom:12px;}
+.service-card .s-desc{font-size:13.5px;color:var(--ink-soft);margin-bottom:20px;}
+.service-card .s-label{font-size:11px;letter-spacing:.1em;color:var(--ink-faint);font-weight:700;margin-bottom:8px;}
+.service-card ul{list-style:none;margin-bottom:26px;}
+.service-card li{font-size:14px;color:var(--ink-soft);padding:8px 0;border-bottom:1px dashed var(--rule);}
+.service-card li:last-child{border-bottom:none;}
+.price-row{
+  display:flex;justify-content:space-between;align-items:baseline;
+  border-top:1px solid var(--ink);padding-top:14px;margin-top:auto;
+}
+.price-row .label{font-size:12.5px;color:var(--ink-faint);}
+.price-row .value{font-family:var(--serif);font-size:22px;color:var(--accent);}
+.price-note{margin-top:28px;font-size:12.5px;color:var(--ink-faint);border-top:1px solid var(--rule);padding-top:20px;}
+
+/* results */
+.case{border-top:1px solid var(--ink);padding:44px 0;display:grid;grid-template-columns:220px 1fr;gap:48px;}
+.case-head{display:flex;flex-direction:column;gap:10px;}
+.case-idx{font-family:var(--serif);font-size:13px;color:var(--ink-faint);letter-spacing:.1em;}
+.case-title{font-family:var(--serif);font-size:22px;line-height:1.5;}
+.case-scale{font-size:13px;color:var(--ink-soft);}
+.case-body{display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px;position:relative;}
+.case-col .tag{
+  font-size:11px;letter-spacing:.1em;color:var(--ink-faint);margin-bottom:10px;font-weight:700;
+  display:flex;align-items:center;gap:8px;
+}
+.case-col .tag::before{content:"";width:14px;height:1px;background:var(--rule-strong);}
+.case-col p, .case-col ul{font-size:14px;color:var(--ink-soft);}
+.case-col ul{list-style:none;}
+.case-col li{padding:4px 0;padding-left:14px;position:relative;}
+.case-col li::before{content:"−";position:absolute;left:0;color:var(--rule-strong);}
+.case-after{background:var(--accent-bg);padding:20px 22px;margin:-20px -22px;}
+.case-after .tag{color:var(--accent);}
+.case-after .tag::before{background:var(--accent);}
+.case-after .big{font-family:var(--serif);font-size:28px;color:var(--accent);display:block;margin-bottom:6px;line-height:1.4;}
+.case-after p{color:var(--ink);}
+
+.stat-strip{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+}
+.stat-item{padding:32px 24px;border-left:1px solid var(--rule);}
+.stat-item:first-child{border-left:none;}
+.stat-item .n{font-family:var(--serif);font-size:22px;color:var(--accent);display:block;margin-bottom:8px;line-height:1.5;}
+.stat-item .l{font-size:12.5px;color:var(--ink-soft);}
+
+/* strengths / steps */
+.strength-list{display:flex;flex-direction:column;}
+.strength{display:grid;grid-template-columns:80px 1fr;gap:32px;padding:30px 0;border-bottom:1px solid var(--rule);}
+.strength:first-child{border-top:1px solid var(--rule);}
+.strength .n{font-family:var(--serif);font-size:30px;color:var(--rule-strong);}
+.strength h3{font-size:17px;margin-bottom:10px;}
+.strength p{font-size:14.5px;color:var(--ink-soft);}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:300px 1fr;gap:56px;}
+.about-card{background:var(--paper);border:1px solid var(--rule);padding:32px;align-self:start;}
+.about-card .role{font-size:12px;color:var(--accent);letter-spacing:.1em;margin-bottom:6px;}
+.about-card .name{font-family:var(--serif);font-size:24px;margin-bottom:22px;}
+.about-facts{display:flex;flex-direction:column;font-size:13px;}
+.about-facts div{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed var(--rule);color:var(--ink-soft);}
+.about-facts div span:last-child{color:var(--ink);text-align:right;}
+.about-text p{color:var(--ink-soft);font-size:15px;margin-bottom:18px;}
+.about-pr{margin-top:24px;border-left:2px solid var(--accent);padding-left:20px;}
+.about-pr h3{font-size:16px;margin-bottom:8px;color:var(--accent);}
+.about-pr p{font-size:14px;color:var(--ink-soft);margin-bottom:0;}
+
+/* mid CTA band */
+.cta-band{border:1px solid var(--rule);background:var(--paper);padding:36px 40px;margin-top:56px;display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap;}
+.cta-band .cta-copy h3{font-size:19px;margin-bottom:8px;}
+.cta-band .cta-copy p{font-size:13.5px;color:var(--ink-soft);}
+
+/* faq */
+.faq-item{border-bottom:1px solid var(--rule);}
+.faq-item:first-child{border-top:1px solid var(--rule);}
+.faq-q{
+  display:flex;justify-content:space-between;align-items:center;gap:16px;
+  padding:22px 4px;cursor:pointer;font-size:15.5px;font-weight:500;
+  background:none;border:none;width:100%;text-align:left;color:var(--ink);font-family:var(--sans);line-height:1.7;
+}
+.faq-q .plus{font-size:20px;color:var(--accent);transition:transform .2s;font-weight:400;flex:none;}
+.faq-item.open .plus{transform:rotate(45deg);}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .25s ease;}
+.faq-a p{font-size:14px;color:var(--ink-soft);padding:0 4px 22px;max-width:720px;}
+
+/* contact */
+.contact-section{background:var(--accent);color:#fff;}
+.contact-section h2{color:#fff;}
+.contact-section .eyebrow{color:#D6E2D9;}
+.contact-section .eyebrow::before{background:#D6E2D9;}
+.contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;}
+.contact-text p{color:#E3EAE5;font-size:15px;margin-bottom:14px;}
+.contact-steps{font-size:13.5px;color:#E3EAE5;margin-top:24px;border-top:1px solid rgba(255,255,255,.25);padding-top:20px;}
+.contact-mail{font-size:13.5px;color:#E3EAE5;margin-top:20px;}
+.form-field{margin-bottom:18px;}
+.form-field label{display:block;font-size:12.5px;color:#E3EAE5;margin-bottom:6px;}
+.form-field .req{color:#FFD9A0;font-size:11px;margin-left:6px;}
+.form-field input,.form-field textarea,.form-field select{
+  width:100%;padding:13px 14px;background:rgba(255,255,255,.10);
+  border:1px solid rgba(255,255,255,.45);color:#fff;font-family:var(--sans);font-size:16px;border-radius:0;
+}
+.form-field textarea{resize:vertical;min-height:110px;}
+.form-field select option{color:var(--ink);background:#fff;}
+.form-field input::placeholder,.form-field textarea::placeholder{color:#B9C9BE;}
+.form-consent{display:flex;gap:10px;align-items:flex-start;font-size:12.5px;color:#E3EAE5;margin-bottom:20px;line-height:1.8;}
+.form-consent input{width:18px;height:18px;flex:none;margin-top:4px;}
+.form-consent a{text-decoration:underline;}
+.contact-form .btn-submit{background:#fff;color:var(--accent);border-color:#fff;width:100%;padding:16px;font-size:15px;font-weight:700;}
+.contact-form .btn-submit:hover{background:#EDEFE9;}
+.contact-form .btn-submit[disabled]{opacity:.6;cursor:progress;}
+.form-note{font-size:11.5px;color:#B9C9BE;margin-top:14px;}
+.hp-field{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
+.form-msg{display:none;padding:18px;border:1px solid rgba(255,255,255,.5);font-size:14px;color:#fff;margin-top:16px;}
+.form-msg.show{display:block;}
+.form-success{display:none;padding:36px 28px;border:1px solid rgba(255,255,255,.5);text-align:center;}
+.form-success.show{display:block;}
+.form-success h3{color:#fff;font-size:19px;margin-bottom:12px;}
+.form-success p{color:#E3EAE5;font-size:14px;}
+
+/* footer */
+footer{padding:56px 0 40px;border-top:1px solid var(--rule);}
+.footer-grid{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:32px;}
+.footer-logo{font-family:var(--serif);font-size:16px;margin-bottom:8px;}
+.footer-desc{font-size:12.5px;color:var(--ink-faint);max-width:340px;}
+.footer-links{display:flex;flex-wrap:wrap;gap:14px 28px;font-size:13px;color:var(--ink-soft);max-width:520px;}
+.footer-links a:hover{color:var(--ink);text-decoration:underline;}
+.footer-bottom{margin-top:40px;padding-top:24px;border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink-faint);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+
+/* sticky mobile CTA */
+.mobile-cta{
+  display:none;position:fixed;left:0;right:0;bottom:0;z-index:120;
+  background:rgba(250,249,245,.97);border-top:1px solid var(--rule);
+  padding:10px 16px;padding-bottom:calc(10px + env(safe-area-inset-bottom));
+  backdrop-filter:blur(6px);
+}
+.mobile-cta a{width:100%;padding:14px;font-size:15px;}
+
+/* reveal（JSなしでも必ず表示されるフォールバック付き） */
+.js .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease, transform .6s ease;}
+.js .reveal.in{opacity:1;transform:translateY(0);}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  .js .reveal{opacity:1;transform:none;transition:none;}
+}
+
+/* ---- tablet ---- */
+@media(max-width:1040px){
+  .about-grid{grid-template-columns:260px 1fr;gap:36px;}
+  .service-card{padding:32px;}
+  .case{grid-template-columns:180px 1fr;gap:32px;}
+  .hero h1{font-size:36px;}
+}
+@media(max-width:900px){
+  .target-grid{grid-template-columns:1fr 1fr;}
+  .proof-strip{grid-template-columns:1fr;}
+  .case{grid-template-columns:1fr;gap:20px;}
+  .case-body{grid-template-columns:1fr;gap:22px;}
+  .case-after{margin:0;}
+  .about-grid{grid-template-columns:1fr;}
+}
+/* ---- mobile ---- */
+@media(max-width:860px){
+  .header-inner{padding:0 20px;}
+  .nav-links{
+    display:none;position:absolute;top:var(--header-h);left:0;right:0;
+    background:var(--bg);flex-direction:column;gap:2px;padding:12px 20px 20px;
+    border-bottom:1px solid var(--rule);max-height:calc(100vh - var(--header-h));overflow-y:auto;
+  }
+  .nav-links.is-open{display:flex;}
+  .nav-links a{padding:12px 0;border-bottom:1px solid var(--rule);font-size:15px;}
+  nav{gap:12px;}
+  .menu-toggle{display:block;}
+  .hero{padding:56px 0 56px;}
+  .hero h1{font-size:29px;line-height:1.55;}
+  .hero h1 .h1-sub{font-size:16px;}
+  .hero .lead{font-size:15.5px;}
+  .hero-cta{flex-direction:column;gap:12px;}
+  .hero-cta .btn{width:100%;}
+  .section{padding:64px 0;}
+  .section-head{margin-bottom:36px;}
+  .section-head h2{font-size:23px;}
+  .wrap{padding:0 20px;}
+  .target-grid{grid-template-columns:1fr;}
+  .service-grid{grid-template-columns:1fr;}
+  .service-card{padding:28px 24px;}
+  .stat-strip{grid-template-columns:1fr;}
+  .stat-item{border-left:none;border-top:1px solid var(--rule);}
+  .stat-item:first-child{border-top:none;}
+  .strength{grid-template-columns:1fr;gap:6px;padding:24px 0;}
+  .strength .n{font-size:22px;}
+  .contact-inner{grid-template-columns:1fr;gap:36px;}
+  .cta-band{padding:28px 22px;flex-direction:column;align-items:flex-start;gap:20px;}
+  .cta-band .btn{width:100%;}
+  .compare{font-size:13px;min-width:640px;}
+  .compare th,.compare td{padding:12px 14px;}
+  .footer-bottom{flex-direction:column;}
+  .mobile-cta{display:block;}
+  body{padding-bottom:76px;}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">本文へスキップ</a>
+
+<header>
+  <div class="header-inner">
+    <a href="#top" class="logo" aria-label="クリアサポート株式会社 トップへ">
+      <span class="logo-main">クリアサポート株式会社</span>
+      <span class="logo-sub">CLEAR SUPPORT INC.</span>
+    </a>
+    <nav aria-label="グローバルナビゲーション">
+      <div class="nav-links" id="navLinks">
+        <a href="#issues">課題</a>
+        <a href="#difference">経理代行との違い</a>
+        <a href="#target">対象企業</a>
+        <a href="#services">サービス・料金</a>
+        <a href="#results">支援実績</a>
+        <a href="#strengths">強み</a>
+        <a href="#flow">ご相談の流れ</a>
+        <a href="#about">代表紹介</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <a href="#contact" class="btn btn-solid btn-sm">相談する</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="navLinks">☰</button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<div id="top"></div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero wrap">
+    <div class="hero-inner">
+      <p class="eyebrow">売上5〜80億円規模の成長企業向け｜経営管理・管理部門構築支援</p>
+      <h1>机上の理論はいらない。<br>現場に「根づく」経営管理を共に。
+        <span class="h1-sub">月次決算の早期化・管理会計の導入・管理部門の立ち上げを、運用定着まで一貫支援</span>
+      </h1>
+      <p class="lead">経営判断に必要な数字が、必要なタイミングで出てくる状態をつくります。資料をつくって終わりにせず、業務フローの設計から現場での実装、社内への引き継ぎまで対応します。</p>
+      <p class="lead-sub">代表の野村が自ら現場に入り、課題の整理から実装・自走化まで一貫して担当します。</p>
+
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-solid">まずは課題を整理する（初回相談は無料）</a>
+        <a href="#services" class="btn btn-outline">サービス・料金を見る</a>
+      </div>
+      <p class="cta-micro">※ 初回相談は無料です。事前準備・資料は不要です。「何から手をつけるべきか」の整理だけでもご相談いただけます。</p>
+
+      <h2 class="eyebrow" style="margin-bottom:14px;">これまでの支援成果（抜粋）</h2>
+      <div class="proof-strip">
+        <div class="proof-item">
+          <span class="p-num num">月次決算 30日 → 8日</span>
+          <span class="p-label">売上5億円規模／支援期間3か月。経営判断に使える数字が、月初に出る状態へ。</span>
+        </div>
+        <div class="proof-item">
+          <span class="p-num">管理部門をゼロから立ち上げ</span>
+          <span class="p-label">売上10億円規模／支援期間4か月。属人化した経理を、社内1名で回る体制へ内製化。</span>
+        </div>
+        <div class="proof-item">
+          <span class="p-num">海外3か国の連結決算を内製化</span>
+          <span class="p-label">売上50億円規模／支援期間4か月。四半期連結を社内メンバーだけで回せる体制へ。</span>
+        </div>
+      </div>
+
+      <div class="credential-strip">
+        <div class="credential-item"><span class="num">5〜80億円</span>支援企業の売上規模</div>
+        <div class="credential-item"><span class="num">10社以上</span>経営管理・管理部門の支援実績</div>
+      </div>
+      <p class="credential-note">※ 上記は代表・野村知樹が前職を含めて手掛けたプロジェクトの実績です（詳細は<a href="#results" style="text-decoration:underline;">支援実績</a>をご覧ください）。</p>
+    </div>
+  </section>
+
+  <!-- ============ 経理代行との違い ============ -->
+  <section class="section section-alt section-border-top reveal" id="difference">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">クリアサポートの立ち位置</p>
+        <h2>記帳代行でも、資料をつくるだけのコンサルでもありません。</h2>
+        <p class="lead">クリアサポートが提供するのは、経理作業の肩代わりではなく「経営者の意思決定に必要な数字が、仕組みとして出てくる状態」です。<br>設計だけを渡して終わるコンサルティングとも、指示どおり作業をこなす代行とも異なり、設計から現場実装・社内への引き継ぎまでを一人の担当者が通しで行います。</p>
+      </div>
+
+      <div class="table-scroll">
+        <table class="compare">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">経理代行・記帳代行</th>
+              <th scope="col">一般的な経営コンサル</th>
+              <th scope="col" class="is-us">クリアサポート</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">主な目的</th>
+              <td>日常経理業務の処理</td>
+              <td>方針・改善案の提示</td>
+              <td class="is-us">経営判断に使う数字が出る「仕組み」の構築</td>
+            </tr>
+            <tr>
+              <th scope="row">アウトプット</th>
+              <td>記帳・試算表</td>
+              <td>レポート・改善提案書</td>
+              <td class="is-us">業務フロー／管理会計・決算の運用体制／マニュアル</td>
+            </tr>
+            <tr>
+              <th scope="row">現場実務</th>
+              <td>依頼された範囲を処理</td>
+              <td>原則として関与しない</td>
+              <td class="is-us">現場に入り、実務を回しながら仕組みを実装</td>
+            </tr>
+            <tr>
+              <th scope="row">対応範囲</th>
+              <td>経理業務</td>
+              <td>戦略・計画</td>
+              <td class="is-us">管理会計・決算・連結・PMI・CFO/管理部長代行まで</td>
+            </tr>
+            <tr>
+              <th scope="row">支援の終わり方</th>
+              <td>継続的な外部依存</td>
+              <td>提案の納品で終了</td>
+              <td class="is-us">社内メンバーだけで回る状態（自走化）まで伴走</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="price-note" style="border:none;padding-top:16px;">※ 経理実務そのものにも対応可能です。ただし「代行して終わり」ではなく、社内で回せる体制へ移行させることを前提としています。</p>
+    </div>
+  </section>
+
+  <!-- ============ 課題 ============ -->
+  <section class="section reveal" id="issues">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">こんな課題はありませんか</p>
+        <h2>打つべき手が、いつも「1ヶ月遅れ」になっている。</h2>
+        <p class="lead">成長している企業ほど、事業のスピードに管理部門の体制が追いつかなくなります。<br>次のような状態に心当たりがあれば、管理体制を見直すタイミングです。</p>
+      </div>
+
+      <h3 class="sub-h">1. 意思決定・スピードの課題</h3>
+      <div class="pain-list" style="margin-bottom:48px;">
+        <div class="pain-row"><span class="idx num">01</span><p>月次決算の確定が翌月下旬までかかり、いつも「過去の数字」で判断している</p></div>
+        <div class="pain-row"><span class="idx num">02</span><p>経営会議に必要な数字がその場ですぐに出てこず、議論が不完全で終わる</p></div>
+        <div class="pain-row"><span class="idx num">03</span><p>原価や事業部ごとの数値が見えず、現場の勘や経験で判断している</p></div>
+      </div>
+
+      <h3 class="sub-h">2. 現場・業務運用の課題</h3>
+      <div class="pain-list" style="margin-bottom:48px;">
+        <div class="pain-row"><span class="idx num">04</span><p>複雑なExcel管理が属人化し、作成者しか数字の根拠を把握できていない</p></div>
+        <div class="pain-row"><span class="idx num">05</span><p>経理担当者がブラックボックス化しており、退職や休職で業務が止まるリスクがある</p></div>
+        <div class="pain-row"><span class="idx num">06</span><p>記帳代行を導入したが、経営管理の根本的な解決にはなっていない</p></div>
+      </div>
+
+      <h3 class="sub-h">3. 組織・成長フェーズの課題</h3>
+      <div class="pain-list">
+        <div class="pain-row"><span class="idx num">07</span><p>CFOや管理部長を採用したいが、自社に必要な要件や選定基準が分からない</p></div>
+        <div class="pain-row"><span class="idx num">08</span><p>CFOや管理部長を募集しているが、求める人材がなかなか採用できない</p></div>
+        <div class="pain-row"><span class="idx num">09</span><p>M&Aや子会社化を行ったが、グループ全体の管理・決算体制が統合できていない</p></div>
+      </div>
+
+      <div class="cta-band">
+        <div class="cta-copy">
+          <h3>ひとつでも当てはまれば、一度整理してみませんか。</h3>
+          <p>どこから着手すべきかの整理だけでも構いません。初回オンライン相談（30〜60分・無料）で現状を伺います。</p>
+        </div>
+        <a href="#contact" class="btn btn-solid">課題を整理する</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 対象企業 ============ -->
+  <section class="section section-alt reveal" id="target">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">対象となる企業</p>
+        <h2>売上5〜80億円規模で、<br>管理部門が事業の成長に追いついていない企業へ。</h2>
+        <p class="lead">特に、CFOや管理部長が不在、あるいは兼任で手が回っていない企業のご支援を得意としています。</p>
+      </div>
+      <div class="target-grid">
+        <div class="target-cell"><h3>売上5〜80億円規模の成長企業</h3><p>事業拡大に管理部門の整備が追いついておらず、数字の把握が後追いになっている。</p></div>
+        <div class="target-cell"><h3>CFO・管理部長が不在／兼任</h3><p>経営者や役員が管理業務を兼任しており、本業に集中できていない。</p></div>
+        <div class="target-cell"><h3>月次決算が遅い企業</h3><p>翌月下旬まで数字が固まらず、月次の意思決定サイクルが回っていない。</p></div>
+        <div class="target-cell"><h3>管理会計を導入したい企業</h3><p>全社の損益は見えるが、事業部別・製品別の採算が把握できていない。</p></div>
+        <div class="target-cell"><h3>M&A後の統合を進める企業</h3><p>買収・子会社化した会社の管理体制や決算がグループで統合できていない。</p></div>
+        <div class="target-cell"><h3>PEファンド投資先・上場準備企業</h3><p>投資家や監査法人への報告に耐える管理体制を、短期間で整える必要がある。</p></div>
+      </div>
+      <p class="target-note">※ 上記はこれまでの支援実績が多い企業像です。規模・業種にかかわらず、まずはご相談ください。</p>
+    </div>
+  </section>
+
+  <!-- ============ サービス ============ -->
+  <section class="section reveal" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">サービス・料金</p>
+        <h2>経営管理から現場の実務まで、<br>4つの領域で一貫支援します。</h2>
+        <p class="lead">単発の作業代行ではなく、貴社の成長フェーズや課題に応じて必要な機能を組み合わせてご提案します。仕組みの構築から社内への定着・引き継ぎまで伴走します。</p>
+      </div>
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>経営管理・CFO支援</h3>
+          <p class="s-desc">経営者の意思決定スピードを上げるための管理体制を構築します。</p>
+          <p class="s-label">【対応例】</p>
+          <ul>
+            <li>管理会計の導入</li>
+            <li>KGI / KPI設計・予実管理の運用支援</li>
+            <li>財務モデル作成・中期経営計画策定</li>
+            <li>経営会議資料の標準化</li>
+          </ul>
+          <div class="price-row"><span class="label">料金目安</span><span class="value num">月額50万円〜</span></div>
+        </div>
+        <div class="service-card">
+          <h3>経理・決算体制構築</h3>
+          <p class="s-desc">「遅い・属人化している」決算体制を見直し、正確でスピーディーな月次決算を実現します。</p>
+          <p class="s-label">【対応例】</p>
+          <ul>
+            <li>月次決算体制の構築・早期化</li>
+            <li>経理業務改善・業務フロー設計</li>
+            <li>業務の標準化・マニュアル整備</li>
+            <li>クラウド会計・周辺システムの導入支援</li>
+          </ul>
+          <div class="price-row"><span class="label">料金目安</span><span class="value num">月額30万円〜</span></div>
+        </div>
+        <div class="service-card">
+          <h3>管理部門ハンズオン・実務支援</h3>
+          <p class="s-desc">コンサルティングにとどまらず、現場の実務に入り込んで管理体制を整え、社内へ引き継ぎます。</p>
+          <p class="s-label">【対応例】</p>
+          <ul>
+            <li>経理・管理部門の立ち上げ</li>
+            <li>経理業務の実務伴走・CFO/管理部長代行</li>
+            <li>経理担当者の採用・育成支援</li>
+            <li>運用定着後の社内メンバーへの引き継ぎ（自走化）</li>
+          </ul>
+          <div class="price-row"><span class="label">料金目安</span><span class="value">個別見積もり</span></div>
+        </div>
+        <div class="service-card">
+          <h3>PMI・財務アドバイザリー</h3>
+          <p class="s-desc">M&A後のグループ統合や、連結決算・原価計算など難易度の高いプロジェクトに対応します。</p>
+          <p class="s-label">【対応例】</p>
+          <ul>
+            <li>PMI（M&A後の経営・PMO・管理体制の統合支援）</li>
+            <li>連結決算体制の構築</li>
+            <li>原価計算制度の導入</li>
+            <li>財務・経営管理に関するアドバイザリー</li>
+          </ul>
+          <div class="price-row"><span class="label">料金目安</span><span class="value">個別見積もり</span></div>
+        </div>
+      </div>
+      <p class="price-note">※ 料金は支援範囲・訪問／稼働頻度・プロジェクト規模により変動します。現状の課題を伺ったうえで、最適なプランをご提示します。継続支援（月額契約）のほか、プロジェクト支援・スポット支援にも対応しています。</p>
+
+      <div class="cta-band">
+        <div class="cta-copy">
+          <h3>自社の場合、どの支援が必要か分からない。</h3>
+          <p>その状態で問題ありません。現状を伺ったうえで、必要な支援範囲と概算費用をご提示します。</p>
+        </div>
+        <a href="#contact" class="btn btn-solid">管理体制について相談する</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 支援実績 ============ -->
+  <section class="section section-alt reveal" id="results">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">支援実績</p>
+        <h2>「何が問題で、何を行い、どう変わったか」</h2>
+        <p class="lead">代表・野村知樹が手掛けたプロジェクトと成果の実例です。企業名は守秘義務のため非公開としています。</p>
+      </div>
+
+      <article class="case">
+        <div class="case-head">
+          <p class="case-idx">CASE 01</p>
+          <h3 class="case-title">月次決算 30日 → 8日</h3>
+          <p class="case-scale">医療・ヘルスケア業／売上5億円規模／支援期間3か月</p>
+        </div>
+        <div class="case-body">
+          <div class="case-col"><p class="tag">課題（BEFORE）</p><p>月次決算の確定に30日を要し、経営判断に使える数字が大幅に遅れていた。</p></div>
+          <div class="case-col"><p class="tag">実施したこと</p><ul><li>月次決算プロセスの現状可視化</li><li>業務フロー再設計・ツール整備</li><li>取引先への請求書早期提出依頼</li><li>運用マニュアル作成</li><li>経理担当者へ引き継ぎ</li></ul></div>
+          <div class="case-col case-after"><p class="tag">成果（AFTER）</p><span class="big num">30日 → 8日</span><p>確定までの日数を22日間短縮。翌月上旬には数字が固まり、月次での意思決定が可能に。</p></div>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case-head">
+          <p class="case-idx">CASE 02</p>
+          <h3 class="case-title">管理部門の立ち上げと内製化</h3>
+          <p class="case-scale">運送業／売上10億円規模／支援期間4か月</p>
+        </div>
+        <div class="case-body">
+          <div class="case-col"><p class="tag">課題（BEFORE）</p><p>経理業務が完全に属人化し、組織的な管理部門が存在しない状態だった。</p></div>
+          <div class="case-col"><p class="tag">実施したこと</p><ul><li>月次決算体制の新規構築</li><li>マネーフォワード導入</li><li>業務マニュアル作成</li><li>経理担当者の採用・育成支援</li></ul></div>
+          <div class="case-col case-after"><p class="tag">成果（AFTER）</p><span class="big">社内1名で回る体制へ</span><p>経理担当1名を中心とした自走体制を構築し、外部頼みの状態から内製化を実現。</p></div>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case-head">
+          <p class="case-idx">CASE 03</p>
+          <h3 class="case-title">原価計算制度の導入</h3>
+          <p class="case-scale">製造業／売上80億円規模</p>
+        </div>
+        <div class="case-body">
+          <div class="case-col"><p class="tag">課題（BEFORE）</p><p>原価計算の仕組みがなく、製品ごとの正確な採算が把握できていなかった。</p></div>
+          <div class="case-col"><p class="tag">実施したこと</p><ul><li>経営陣・製造部長へのヒアリング</li><li>海外工場への現地視察</li><li>計算ロジックの策定</li><li>フォーマット・運用フローの構築</li><li>CFO・製造部長へ引き継ぎ</li></ul></div>
+          <div class="case-col case-after"><p class="tag">成果（AFTER）</p><span class="big">製品別採算の可視化</span><p>実際原価計算の運用体制を構築し、製品ごとの原価が継続的に把握できる状態を実現。</p></div>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case-head">
+          <p class="case-idx">CASE 04</p>
+          <h3 class="case-title">海外3か国を含む連結決算体制の構築</h3>
+          <p class="case-scale">製造業／売上50億円規模／支援期間4か月</p>
+        </div>
+        <div class="case-body">
+          <div class="case-col"><p class="tag">課題（BEFORE）</p><p>海外子会社を含む四半期連結決算の仕組み・体制が存在しなかった。</p></div>
+          <div class="case-col"><p class="tag">実施したこと</p><ul><li>月次決算体制の現状確認</li><li>関係会社間取引の洗い出し</li><li>連結パッケージの作成</li><li>運用マニュアルの作成</li><li>経理部長へ引き継ぎ</li></ul></div>
+          <div class="case-col case-after"><p class="tag">成果（AFTER）</p><span class="big">四半期連結を社内で完結</span><p>海外3か国を含む四半期連結決算を、社内メンバーだけで回せる体制へ移管。</p></div>
+        </div>
+      </article>
+
+      <h3 style="font-size:18px;margin:64px 0 24px;">プロジェクト成果のハイライト</h3>
+      <div class="stat-strip">
+        <div class="stat-item"><span class="n num">決算8日で完了</span><span class="l">月次決算の早期化（30日 → 8日）</span></div>
+        <div class="stat-item"><span class="n">管理部門の立ち上げ</span><span class="l">ゼロからの構築・自走化（売上10億円規模）</span></div>
+        <div class="stat-item"><span class="n">原価計算の導入</span><span class="l">実際原価計算制度の構築・定着（売上80億円規模）</span></div>
+        <div class="stat-item"><span class="n">連結決算の内製化</span><span class="l">四半期連結決算体制の社内化（海外3か国対応）</span></div>
+      </div>
+
+      <div class="cta-band">
+        <div class="cta-copy">
+          <h3>「自社でも同じことができるか」を確かめる。</h3>
+          <p>現状の体制を伺えば、どこまで・どのくらいの期間で改善できるかの目安をお伝えできます。</p>
+        </div>
+        <a href="#contact" class="btn btn-solid">自社の場合を相談する</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 強み ============ -->
+  <section class="section reveal" id="strengths">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">クリアサポートの強み</p>
+        <h2>机上の理論で終わらせない。<br>現場で自走する体制をつくる「5つの強み」。</h2>
+      </div>
+      <div class="strength-list">
+        <div class="strength"><span class="n num">01</span><div><h3>経営者視点と現場感覚の「両立」</h3><p>代表・野村は事業会社での人事・営業・経理実務と、会計コンサルティングの両方を経験。「経営者が求める意思決定スピード」と「現場が無理なく回せる業務フロー」の最適解を導き出します。</p></div></div>
+        <div class="strength"><span class="n num">02</span><div><h3>設計から実務まで対応する「一貫対応」</h3><p>アドバイスで終わるコンサルティングでも、指示どおり動くだけの作業代行でもありません。課題解決の立案から現場での定着まで、一気通貫でカバーします。</p></div></div>
+        <div class="strength"><span class="n num">03</span><div><h3>支援終了後も仕組みが回り続ける「自走化」</h3><p>業務フローやマニュアルを納品して終わりにせず、貴社担当者への実務トレーニングまで行い、支援終了後も自社で継続運用できる状態を実現します。</p></div></div>
+        <div class="strength"><span class="n num">04</span><div><h3>難易度の高い領域までカバーする「実績」</h3><p>「月次決算30日→8日」「売上10億円規模の管理部門立ち上げ」「売上80億円規模の原価計算導入」「海外3か国の連結決算」など、難易度の高いプロジェクトの経験があります。</p></div></div>
+        <div class="strength"><span class="n num">05</span><div><h3>代表が現場に入り込む「ハンズオン支援」</h3><p>経験の浅い若手担当者任せにはしません。代表の野村自身が貴社の現場に入り込み、課題整理から実装・社内定着まで、経営者のパートナーとして責任を持って伴走します。</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 支援プロセス ============ -->
+  <section class="section section-alt reveal" id="process">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">支援プロセス</p>
+        <h2>課題の整理から現場での定着まで、<br>8つのステップで進めます。</h2>
+        <p class="lead">「作って終わり」にしないために、引き継ぎと自走化までを支援範囲に含めています。</p>
+      </div>
+
+      <div style="margin-bottom:40px;">
+        <p class="eyebrow" style="margin-bottom:14px;">PHASE 01｜現状把握・設計</p>
+        <div class="strength-list">
+          <div class="strength"><span class="n num">01</span><div><h3>現状・課題の整理</h3><p>経営陣・現場へのヒアリングを行い、現状の課題を可視化します。</p></div></div>
+          <div class="strength"><span class="n num">02</span><div><h3>管理体制の設計</h3><p>貴社の成長フェーズに合わせた最適な管理体制を設計します。</p></div></div>
+        </div>
+      </div>
+      <div style="margin-bottom:40px;">
+        <p class="eyebrow" style="margin-bottom:14px;">PHASE 02｜構築・落とし込み</p>
+        <div class="strength-list">
+          <div class="strength"><span class="n num">03</span><div><h3>業務フロー設計</h3><p>課題解決後の業務フローを再構築します。</p></div></div>
+          <div class="strength"><span class="n num">04</span><div><h3>実務への落とし込み</h3><p>担当者の業務タスクへ落とし込み、実行を支援します。</p></div></div>
+        </div>
+      </div>
+      <div style="margin-bottom:40px;">
+        <p class="eyebrow" style="margin-bottom:14px;">PHASE 03｜運用・標準化</p>
+        <div class="strength-list">
+          <div class="strength"><span class="n num">05</span><div><h3>現場運用の伴走</h3><p>実際の業務運用を確認・支援しながら、ボトルネックを解消します。</p></div></div>
+          <div class="strength"><span class="n num">06</span><div><h3>マニュアル整備</h3><p>属人化を防ぎ、誰でも再現できる運用ドキュメントを作成します。</p></div></div>
+        </div>
+      </div>
+      <div>
+        <p class="eyebrow" style="margin-bottom:14px;">PHASE 04｜引き継ぎ・自走化</p>
+        <div class="strength-list">
+          <div class="strength"><span class="n num">07</span><div><h3>社内への引き継ぎ</h3><p>貴社担当者への実務トレーニングを行い、運用を引き継ぎます。</p></div></div>
+          <div class="strength"><span class="n num">08</span><div><h3>自走化</h3><p>支援終了後も、社内メンバーだけで継続運用できる体制へ移行します。</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ご相談の流れ ============ -->
+  <section class="section reveal" id="flow">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">ご相談の流れ</p>
+        <h2>お問い合わせから支援開始まで。</h2>
+        <p class="lead">事前準備は不要です。現状の課題感をそのままお聞かせください。</p>
+      </div>
+      <div class="strength-list" style="max-width:820px;">
+        <div class="strength"><span class="n num">01</span><div><h3>お問い合わせ</h3><p>Webサイトのフォームよりご連絡ください。原則1営業日以内に、代表の野村より折り返しご連絡いたします。</p></div></div>
+        <div class="strength"><span class="n num">02</span><div><h3>初回オンライン相談（30〜60分・無料）</h3><p>綺麗な資料や事前準備は一切不要です。費用は一切かかりません。現状の漠然とした違和感や課題感をお聞かせください。</p></div></div>
+        <div class="strength"><span class="n num">03</span><div><h3>支援計画案・お見積りのご提案</h3><p>成長フェーズと目指すゴールに合わせ、「支援領域・スケジュール・役割分担」をまとめた支援計画とお見積りをご提示します。</p></div></div>
+        <div class="strength"><span class="n num">04</span><div><h3>ご契約</h3><p>支援内容および契約条件にご納得いただいたうえで、支援契約（業務委託契約）を締結します。</p></div></div>
+        <div class="strength"><span class="n num">05</span><div><h3>プロジェクト開始</h3><p>キックオフミーティングを実施し、ご支援を開始します。</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 代表紹介 ============ -->
+  <section class="section section-alt reveal" id="about">
+    <div class="wrap about-grid">
+      <div class="about-card">
+        <p class="role">代表取締役</p>
+        <p class="name">野村 知樹</p>
+        <div class="about-facts">
+          <div><span>会社名</span><span>クリアサポート株式会社</span></div>
+          <div><span>設立</span><span>2026年6月</span></div>
+          <div><span>事業内容</span><span>会計コンサルティング／管理部門構築支援／財務アドバイザリー</span></div>
+          <div><span>対応エリア</span><span>全国（オンライン中心・訪問応相談）</span></div>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="eyebrow">代表メッセージ</p>
+        <h2 style="font-size:24px;margin-bottom:20px;">経営者が本業に集中できる、<br>現場で「自走する」管理基盤を共に。</h2>
+        <p>事業会社での人事・営業・経理業務から、会計コンサルティング会社でのPMI・経営管理プロジェクト、そして自身の起業まで、一貫して「現場に定着し、継続的に運用できる仕組みづくり」に取り組んできました。これまで売上5〜80億円規模の企業を中心に、10社以上の経営管理・決算体制の構築を支援しています。</p>
+        <p>綺麗なレポートを作って終わるコンサルティングや、言われた作業をこなすだけの記帳代行では、企業の成長スピードに追いつく管理体制はつくれません。経営陣が求める意思決定スピードと、現場が無理なく回せる業務フローの両方を理解したうえで、代表の野村自身が現場に入り込み、自走できるまで伴走します。</p>
+        <div class="about-pr">
+          <h3>経営者目線と現場目線をつなぐ「再現性のある仕組み構築」</h3>
+          <p>支援して終わりにせず、支援終了後も社内メンバーだけで無理なく運用できる体制（自走化）を構築します。現場の現状分析からマニュアル整備、定着まで一気通貫で対応します。</p>
+        </div>
+        <div class="about-pr">
+          <h3>実務からCFO領域までカバーする「柔軟な対応力」</h3>
+          <p>日常の月次決算や業務改善といった実務から、PEファンド投資先におけるPMI、四半期連結決算、中期経営計画・財務モデルの策定、CFO・管理部長代行まで、貴社の成長フェーズに合わせて柔軟に対応します。</p>
+        </div>
+        <div style="margin-top:32px;">
+          <a href="#contact" class="btn btn-outline">代表に直接相談する</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section reveal" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">よくあるご質問</p>
+        <h2>FAQ</h2>
+      </div>
+      <div class="faq-list" style="max-width:820px;">
+        <div class="faq-item">
+          <h3><button class="faq-q" type="button" aria-expanded="false">CFOや管理部長がいなくても相談できますか？<span class="plus" aria-hidden="true">＋</span></button></h3>
+          <div class="faq-a"><p>問題ありません。CFOや管理部長が不在、あるいは経営者が兼任している企業を主な対象としており、必要に応じてCFO代行・管理部長代行としても対応します。</p></div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-q" type="button" aria-expanded="false">経理代行会社との違いは何ですか？<span class="plus" aria-hidden="true">＋</span></button></h3>
+          <div class="faq-a"><p>経理代行が「日常業務の処理を引き受ける」サービスであるのに対し、当社は「経営判断に必要な数字が出てくる仕組みを構築し、社内で回せる状態にする」ことを目的としています。実務にも入りますが、最終的に社内へ引き継ぐことを前提としている点が大きな違いです。</p></div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-q" type="button" aria-expanded="false">月次決算はどのくらい早くなりますか？<span class="plus" aria-hidden="true">＋</span></button></h3>
+          <div class="faq-a"><p>現状の業務フローや取引先との関係により異なりますが、確定まで30日を要していた企業で8日まで短縮した事例があります。まずは現状のプロセスを確認したうえで、実現可能な水準をお伝えします。</p></div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-q" type="button" aria-expanded="false">既存の経理担当者がいても依頼できますか？<span class="plus" aria-hidden="true">＋</span></button></h3>
+          <div class="faq-a"><p>可能です。既存の経理担当者の方と連携しながら、業務フローの整理や体制構築、育成支援を行うケースも多くあります。</p></div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-q" type="button" aria-expanded="false">経理業務そのものも依頼できますか？<span class="plus" aria-hidden="true">＋</span></button></h3>
+          <div class="faq-a"><p>可能です。日常経理から経理責任者代行、管理部長代行まで、ハンズオンでの実務支援に対応しています。ただし作業代行のみで完結させるのではなく、体制構築とあわせてご支援する形を基本としています。</p></div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-q" type="button" aria-expanded="false">会計ソフトを変更する必要がありますか？<span class="plus" aria-hidden="true">＋</span></button></h3>
+          <div class="faq-a"><p>必須ではありません。freee・マネーフォワード・勘定奉行・TKC・弥生会計など、既存の環境に合わせて対応します。変更が有効と判断される場合は、あわせてご提案します。</p></div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-q" type="button" aria-expanded="false">オンラインだけでも対応できますか？<span class="plus" aria-hidden="true">＋</span></button></h3>
+          <div class="faq-a"><p>対応可能です。基本はオンライン中心で、全国の企業を対象としています。必要に応じて訪問での対応もご相談ください。</p></div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-q" type="button" aria-expanded="false">どのくらいの期間から依頼できますか？<span class="plus" aria-hidden="true">＋</span></button></h3>
+          <div class="faq-a"><p>現場への定着まで行うため、3か月以上の期間を推奨しています。特定の課題に対するスポット支援にも対応しています。</p></div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-q" type="button" aria-expanded="false">料金はどのように決まりますか？<span class="plus" aria-hidden="true">＋</span></button></h3>
+          <div class="faq-a"><p>支援範囲・業務内容・稼働時間・プロジェクト規模などを伺ったうえで、個別にお見積りします。継続支援（月額契約）、プロジェクト支援、スポット支援のいずれにも対応可能です。</p></div>
+        </div>
+        <div class="faq-item">
+          <h3><button class="faq-q" type="button" aria-expanded="false">M&A後の管理体制の統合も依頼できますか？<span class="plus" aria-hidden="true">＋</span></button></h3>
+          <div class="faq-a"><p>可能です。PMI（M&A後の統合支援）、連結決算体制の構築、グループ全体の管理会計整備などに対応しています。</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ お問い合わせ ============ -->
+  <section class="section contact-section" id="contact">
+    <div class="wrap contact-inner">
+      <div class="contact-text">
+        <p class="eyebrow">お問い合わせ</p>
+        <h2>自社の課題を、<br>まずは一度、話してみませんか。</h2>
+        <p style="margin-top:24px;">現状の漠然とした違和感や課題感のままで構いません。綺麗な資料や事前準備は不要です。代表の野村がお話を伺い、貴社に必要な支援内容を一緒に整理いたします。</p>
+        <div class="contact-steps">
+          <strong>ご相談の流れ</strong><br>
+          1. 下記フォームより必要事項をご入力のうえ、送信してください。<br>
+          2. 原則1営業日以内に、代表の野村より折り返しご連絡いたします。<br>
+          3. 初回オンライン相談（30〜60分）にて、現状のヒアリングを実施します。<br>
+          ※ 初回相談は無料です。相談の結果ご依頼に至らなくても、費用は一切いただきません。
+        </div>
+        <p class="contact-mail">フォームが利用できない場合は、<a href="mailto:info.clearsupport@gmail.com" style="text-decoration:underline;">info.clearsupport@gmail.com</a> 宛に直接ご連絡ください。</p>
+      </div>
+
+      <!-- ============================================================
+        ▼ Googleフォーム連携（設定完了・そのまま公開できます）
+           フォーム名：HP 問い合わせシート
+           送信先ID ：1FAIpQLSc3CTEKgUrOygbPtM0O8GeLPdHuGNjXnFJIBr-GPglm30EoPA
+
+           entry番号の対応（Googleフォーム側の設問と紐付け済み）
+             会社名           … entry.406639264
+             お名前           … entry.1317510537
+             メールアドレス   … entry.894278955
+             電話番号         … entry.2101455593
+             ご相談内容       … entry.922158753   ※選択肢の文言は変更しないこと
+             お問い合わせ内容 … entry.2059138374
+
+        ※ Googleフォームの設定「メールアドレスを収集する」は【回答者からの入力】にしてください。
+           【確認済み】にするとログインが必須になり、送信できなくなります。
+             メールアドレス（Google収集用）… emailAddress
+
+        ※ Googleフォーム側で設問を追加・削除・並べ替えると entry番号が変わる場合があります。
+           フォームを編集したら、必ずサイトからテスト送信して確認してください。
+      ============================================================ -->
+      <form class="contact-form" id="contactForm"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSc3CTEKgUrOygbPtM0O8GeLPdHuGNjXnFJIBr-GPglm30EoPA/formResponse"
+            method="POST"
+            target="hiddenFrame"
+            accept-charset="UTF-8">
+        <div id="formFields">
+          <div class="form-field">
+            <label for="f-company">会社名<span class="req">必須</span></label>
+            <input type="text" id="f-company" name="entry.406639264" placeholder="株式会社〇〇" required autocomplete="organization">
+          </div>
+          <div class="form-field">
+            <label for="f-name">お名前<span class="req">必須</span></label>
+            <input type="text" id="f-name" name="entry.1317510537" placeholder="山田 太郎" required autocomplete="name">
+          </div>
+          <div class="form-field">
+            <label for="f-email">メールアドレス<span class="req">必須</span></label>
+            <input type="email" id="f-email" name="entry.894278955" placeholder="you@example.com" required autocomplete="email" inputmode="email">
+          </div>
+          <div class="form-field">
+            <label for="f-tel">電話番号（任意）</label>
+            <input type="tel" id="f-tel" name="entry.2101455593" placeholder="03-0000-0000" autocomplete="tel" inputmode="tel">
+          </div>
+          <div class="form-field">
+            <label for="f-topic">ご相談内容<span class="req">必須</span></label>
+            <select id="f-topic" name="entry.922158753" required>
+              <option value="経営管理・CFO支援">経営管理・CFO支援</option>
+              <option value="経理・決算体制構築">経理・決算体制構築</option>
+              <option value="管理部門ハンズオン支援">管理部門ハンズオン支援</option>
+              <option value="PMI・財務アドバイザリー">PMI・財務アドバイザリー</option>
+              <option value="どこから相談すべきか分からない">どこから相談すべきか分からない</option>
+              <option value="その他">その他</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="f-message">お問い合わせ内容<span class="req">必須</span></label>
+            <textarea id="f-message" name="entry.2059138374" placeholder="現状の課題やご相談内容をご記入ください（例：月次決算が遅く、経営会議に間に合わない）" required></textarea>
+          </div>
+
+          <!-- Googleフォームの「メールアドレスを収集する」機能用（自動返信に必要）
+               上のメールアドレス欄の値をJSで自動コピーします。触らないでください。 -->
+          <input type="hidden" name="emailAddress" id="f-emailAddress">
+
+          <!-- Googleフォームが送信を正規のものと判定するための制御項目。触らないでください。 -->
+          <input type="hidden" name="fvv" value="1">
+          <input type="hidden" name="pageHistory" value="0">
+          <input type="hidden" name="submissionTimestamp" value="-1">
+
+          <!-- スパム対策（人間には見えないダミー項目。Googleフォームには送信されません） -->
+          <div class="hp-field" aria-hidden="true">
+            <label for="f-hp">この項目は入力しないでください</label>
+            <input type="text" id="f-hp" name="_gotcha" tabindex="-1" autocomplete="off">
+          </div>
+
+          <label class="form-consent" for="f-consent">
+            <input type="checkbox" id="f-consent" required>
+            <span><a href="privacy.html" target="_blank" rel="noopener">個人情報の取扱いについて</a>に同意のうえ送信します。</span>
+          </label>
+
+          <button type="submit" class="btn btn-submit" id="submitBtn">この内容で相談する（初回相談は無料）</button>
+          <p class="form-note">※ 初回オンライン相談（30〜60分）は無料です。<br>※ 営業目的のご連絡はご遠慮ください。<br>※ 送信いただいた情報は、ご相談への対応以外の目的には使用しません。</p>
+          <div class="form-msg" id="formError" role="alert"></div>
+        </div>
+
+        <div class="form-success" id="formSuccess" role="status">
+          <h3>お問い合わせありがとうございます。</h3>
+          <p>内容を確認のうえ、原則1営業日以内に代表の野村よりご連絡いたします。<br>自動返信メールが届かない場合は、迷惑メールフォルダをご確認ください。</p>
+        </div>
+      </form>
+      <!-- Googleフォームからの応答を受け取る（画面遷移を防ぐための非表示フレーム） -->
+      <iframe name="hiddenFrame" id="hiddenFrame" style="display:none;" title="送信処理用" aria-hidden="true"></iframe>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-logo">クリアサポート株式会社</p>
+        <p class="footer-desc">経営管理・管理部門構築支援を、現場での運用定着まで一貫して行う会計・経営管理パートナーです。</p>
+      </div>
+      <nav class="footer-links" aria-label="フッターナビゲーション">
+        <a href="#issues">課題</a>
+        <a href="#difference">経理代行との違い</a>
+        <a href="#target">対象企業</a>
+        <a href="#services">サービス・料金</a>
+        <a href="#results">支援実績</a>
+        <a href="#strengths">強み</a>
+        <a href="#process">支援プロセス</a>
+        <a href="#flow">ご相談の流れ</a>
+        <a href="#about">代表紹介</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">お問い合わせ</a>
+        <a href="privacy.html">個人情報の取扱いについて</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 ClearSupport, Inc.</span>
+      <span>経営管理／管理部門構築／月次決算早期化／管理会計／連結決算／PMI</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-cta">
+  <a href="#contact" class="btn btn-solid">まずは相談する（初回相談は無料）</a>
+</div>
+
+<script>
+document.documentElement.classList.add('js');
+
+/* ---- ハンバーガーメニュー ---- */
+(function(){
+  var toggle = document.getElementById('menuToggle');
+  var nav = document.getElementById('navLinks');
+  if(!toggle || !nav) return;
+  function close(){ nav.classList.remove('is-open'); toggle.setAttribute('aria-expanded','false'); toggle.setAttribute('aria-label','メニューを開く'); }
+  toggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
+  });
+  nav.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', close); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') close(); });
+  window.addEventListener('resize', function(){ if(window.innerWidth > 860) close(); });
+})();
+
+/* ---- FAQアコーディオン ---- */
+(function(){
+  var items = document.querySelectorAll('.faq-item');
+  items.forEach(function(item){
+    var btn = item.querySelector('.faq-q');
+    var answer = item.querySelector('.faq-a');
+    btn.addEventListener('click', function(){
+      var isOpen = item.classList.contains('open');
+      items.forEach(function(el){
+        el.classList.remove('open');
+        el.querySelector('.faq-a').style.maxHeight = null;
+        el.querySelector('.faq-q').setAttribute('aria-expanded','false');
+      });
+      if(!isOpen){
+        item.classList.add('open');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+        btn.setAttribute('aria-expanded','true');
+      }
+    });
+  });
+  window.addEventListener('resize', function(){
+    var open = document.querySelector('.faq-item.open .faq-a');
+    if(open){ open.style.maxHeight = open.scrollHeight + 'px'; }
+  });
+})();
+
+/* ---- スクロール表示アニメーション ---- */
+(function(){
+  var targets = document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){
+    targets.forEach(function(el){ el.classList.add('in'); });
+    return;
+  }
+  var observer = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){ entry.target.classList.add('in'); observer.unobserve(entry.target); }
+    });
+  }, {threshold:0.08});
+  targets.forEach(function(el){ observer.observe(el); });
+})();
+
+/* ---- お問い合わせフォーム（Googleフォームへ送信） ----
+   非表示iframeへPOSTするため、画面遷移せずに完了メッセージを表示できます。
+   entry番号やフォームIDが未設定の場合は送信せず、警告を表示します
+   （設定漏れのまま「送信できたように見せる」ことを防ぐため）。 */
+(function(){
+  var form = document.getElementById('contactForm');
+  if(!form) return;
+  var btn = document.getElementById('submitBtn');
+  var errorBox = document.getElementById('formError');
+  var frame = document.getElementById('hiddenFrame');
+  var sending = false;
+
+  function showError(msg){
+    errorBox.textContent = msg;
+    errorBox.classList.add('show');
+    btn.disabled = false;
+    btn.textContent = 'この内容で相談する（初回相談は無料）';
+    sending = false;
+  }
+
+  function isUnconfigured(){
+    var action = form.getAttribute('action') || '';
+    if(action.indexOf('formResponse') === -1) return true;
+    var names = form.querySelectorAll('[name^="entry."]');
+    for(var i = 0; i < names.length; i++){
+      if(/entry\.(1111111111|2222222222|3333333333|4444444444|5555555555|6666666666)/.test(names[i].name)) return true;
+    }
+    return false;
+  }
+
+  function showSuccess(){
+    document.getElementById('formFields').style.display = 'none';
+    document.getElementById('formSuccess').classList.add('show');
+    document.getElementById('contact').scrollIntoView({behavior:'smooth'});
+  }
+
+  frame.addEventListener('load', function(){
+    if(sending){ sending = false; showSuccess(); }
+  });
+
+  form.addEventListener('submit', function(e){
+    if(isUnconfigured()){
+      e.preventDefault();
+      showError('フォームの送信先が未設定です。お手数ですが、設定完了までお待ちください。');
+      return;
+    }
+    if(form.querySelector('[name="_gotcha"]').value !== ''){
+      e.preventDefault();
+      return;
+    }
+    /* Googleフォームの「メールアドレスを収集する」用に値を同期 */
+    var mirror = document.getElementById('f-emailAddress');
+    if(mirror){ mirror.value = document.getElementById('f-email').value; }
+
+    errorBox.classList.remove('show');
+    btn.disabled = true;
+    btn.textContent = '送信中...';
+    sending = true;
+    /* ここで preventDefault はしない（iframe宛に通常送信させる） */
+    setTimeout(function(){
+      if(sending){ sending = false; showSuccess(); }
+    }, 4000);
+  });
+})();
+</script>
+
+<!-- ============ 構造化データ（JSON-LD） ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://YOUR-USERNAME.github.io/YOUR-REPO/#organization",
+      "name": "クリアサポート株式会社",
+      "alternateName": "CLEAR SUPPORT INC.",
+      "url": "https://YOUR-USERNAME.github.io/YOUR-REPO/",
+      "logo": "https://YOUR-USERNAME.github.io/YOUR-REPO/ogp.png",
+      "foundingDate": "2026-06",
+      "description": "経営管理体制の構築、管理部門の立ち上げ、月次決算の早期化、管理会計の導入、連結決算・PMI支援を、現場での運用定着まで一貫して行う会計コンサルティング会社。",
+      "areaServed": { "@type": "Country", "name": "日本" },
+      "founder": { "@type": "Person", "name": "野村 知樹", "jobTitle": "代表取締役" },
+      "knowsAbout": ["経営管理","管理部門構築","月次決算早期化","管理会計","連結決算","原価計算","PMI","CFO代行"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://YOUR-USERNAME.github.io/YOUR-REPO/#website",
+      "url": "https://YOUR-USERNAME.github.io/YOUR-REPO/",
+      "name": "クリアサポート株式会社",
+      "inLanguage": "ja",
+      "publisher": { "@id": "https://YOUR-USERNAME.github.io/YOUR-REPO/#organization" }
+    },
+    {
+      "@type": "Service",
+      "name": "経営管理・管理部門構築支援",
+      "serviceType": "会計コンサルティング／管理部門構築支援",
+      "provider": { "@id": "https://YOUR-USERNAME.github.io/YOUR-REPO/#organization" },
+      "areaServed": { "@type": "Country", "name": "日本" },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "サービス一覧",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "経営管理・CFO支援" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "経理・決算体制構築" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "管理部門ハンズオン・実務支援" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "PMI・財務アドバイザリー" } }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "CFOや管理部長がいなくても相談できますか？", "acceptedAnswer": { "@type": "Answer", "text": "問題ありません。CFOや管理部長が不在、あるいは経営者が兼任している企業を主な対象としており、必要に応じてCFO代行・管理部長代行としても対応します。" } },
+        { "@type": "Question", "name": "経理代行会社との違いは何ですか？", "acceptedAnswer": { "@type": "Answer", "text": "経理代行が日常業務の処理を引き受けるサービスであるのに対し、当社は経営判断に必要な数字が出てくる仕組みを構築し、社内で回せる状態にすることを目的としています。実務にも入りますが、最終的に社内へ引き継ぐことを前提としている点が大きな違いです。" } },
+        { "@type": "Question", "name": "月次決算はどのくらい早くなりますか？", "acceptedAnswer": { "@type": "Answer", "text": "現状の業務フローや取引先との関係により異なりますが、確定まで30日を要していた企業で8日まで短縮した事例があります。まずは現状のプロセスを確認したうえで、実現可能な水準をお伝えします。" } },
+        { "@type": "Question", "name": "既存の経理担当者がいても依頼できますか？", "acceptedAnswer": { "@type": "Answer", "text": "可能です。既存の経理担当者の方と連携しながら、業務フローの整理や体制構築、育成支援を行うケースも多くあります。" } },
+        { "@type": "Question", "name": "会計ソフトを変更する必要がありますか？", "acceptedAnswer": { "@type": "Answer", "text": "必須ではありません。freee・マネーフォワード・勘定奉行・TKC・弥生会計など、既存の環境に合わせて対応します。変更が有効と判断される場合は、あわせてご提案します。" } },
+        { "@type": "Question", "name": "オンラインだけでも対応できますか？", "acceptedAnswer": { "@type": "Answer", "text": "対応可能です。基本はオンライン中心で、全国の企業を対象としています。必要に応じて訪問での対応もご相談ください。" } },
+        { "@type": "Question", "name": "どのくらいの期間から依頼できますか？", "acceptedAnswer": { "@type": "Answer", "text": "現場への定着まで行うため、3か月以上の期間を推奨しています。特定の課題に対するスポット支援にも対応しています。" } },
+        { "@type": "Question", "name": "料金はどのように決まりますか？", "acceptedAnswer": { "@type": "Answer", "text": "支援範囲・業務内容・稼働時間・プロジェクト規模などを伺ったうえで、個別にお見積りします。継続支援、プロジェクト支援、スポット支援のいずれにも対応可能です。" } }
+      ]
+    }
+  ]
+}
+</script>
+
+</body>
+</html>
